@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #f2f2f2;
+}
+
+#canvas {
+    border: 1px solid #000;
+    box-shadow: 2px 2px 10px #333;
+}
+
+.tom {
+    display: flex;
+    margin: 20px 20px 20px 50px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'open sans';
+    font-size: 50px;
+    text-align: center;
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1200px) {
+    #canvas {
+        width: 98%;
+        
+    }
+
+    .tom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
